@@ -92,5 +92,8 @@
   },
   "engines": {
     "node": ">=10.13.0"
+  },
+  "dependencies": {
+    "@circlon/angular-tree-component": "9.0.2"
   }
 }
