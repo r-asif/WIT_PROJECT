@@ -6,10 +6,10 @@
       <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(componentSelector.About)">About</button>
     </div>
     <div class="col-11">
-      <div *ngIf="currentLink == 1">
+      <div *ngIf="currentLink == componentSelector.XML">
         <tree-root [nodes]="nodes" [options]="options"></tree-root>
       </div>
-      <div *ngIf="currentLink == 2">
+      <div *ngIf="currentLink == componentSelector.About">
         <about></about>
       </div>
     </div>
