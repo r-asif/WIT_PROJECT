@@ -2,8 +2,8 @@
 <div class="content nopadding">
   <div class="row">
     <div class="col-1">
-      <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(1)">Home</button>
-      <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(2)">About</button>
+      <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(componentSelector.XML)">XML Tree</button>
+      <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(componentSelector.About)">About</button>
     </div>
     <div class="col-11">
       <div *ngIf="currentLink == 1">
