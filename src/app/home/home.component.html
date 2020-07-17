@@ -1,3 +1,19 @@
-<div>
-  <tree-root [nodes]="nodes" [options]="options"></tree-root>
+
+<div class="content nopadding">
+  <div class="row">
+    <div class="col-1">
+      <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(1)">Home</button>
+      <button type="button" class="btn btn-primary btn-sm ml-1 mt-1" (click)="setLink(2)">About</button>
+    </div>
+    <div class="col-11">
+      <div *ngIf="currentLink == 1">
+        <tree-root [nodes]="nodes" [options]="options"></tree-root>
+      </div>
+      <div *ngIf="currentLink == 2">
+        <about></about>
+      </div>
+    </div>
+  </div>
 </div>
+
+

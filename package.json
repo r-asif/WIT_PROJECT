@@ -94,6 +94,8 @@
     "node": ">=10.13.0"
   },
   "dependencies": {
-    "@circlon/angular-tree-component": "9.0.2"
+    "@circlon/angular-tree-component": "9.0.2",
+    "bootstrap": "4.5.0",
+    "jquery": "3.5.1"
   }
 }

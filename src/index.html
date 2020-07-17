@@ -10,5 +10,9 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
+  <!-- this is a workaround to initialize jQuery -->
+  <script>
+    window.jQuery = window.$ = require('jquery');
+  </script>
 </body>
 </html>
